@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none ;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+
+}
+.logo img{
+    max-width: 140px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+
+}
+.navmenu a{
+    padding: 10px 20px;
+    color: #0059ff;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: #0d0063;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon .btn{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid rgb(0, 140, 247);
+    padding: 10px 30px;
+    background-color: #0095ff;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 1px;
+    margin-right: 15px;
+    transition: all .42s ease;
+}
+.nav-icon .btn:hover{
+    transform: scale(1.1);
+}
+#menu-icon{
+    font-size: 35px;
+color: #292929;
+z-index: 10001;
+cursor: pointer;
+display: none;
+}
+section{
+    padding: 60px 12%;
+
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.foodbusinessnews.net/ext/resources/2019/7/ColorfulIcePops_Lead.jpg?t=1562163456&width=1080);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+align-items: center;
+gap: 2rem;
+
+}
+.home-img img{
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    border-radius: 20%;
+    margin-left: 40%;
+}
+.home-text h4{
+    color: #0625ec;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.home-text h1{
+    font-size: 50px;
+    color: #007bff;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 23px 0;
+}
+.home-text h1 span{
+    color: #002fbc;
+    text-decoration: underline;
+}
+.home-text p{
+    color: #000000;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.main-btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-btn .btn1{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: #0254e1;
+    padding: 12px 30px;
+    transition: all .42s ease;
+}
+.main-btn .btn1:hover{
+    background-color: #292929;
+
+}
+.btn2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #292929;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+.btn2 span i{
+    height: 50px;
+    width: 50px;
+    background: #008afb;
+    color: aliceblue;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all .42s ease;
+
+}
+.btn2 span i:hover{
+    transform: translateY(-5px);
+}
+#about{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none ;
+    padding: 5px 15px;
+    position: relative;
+
+}
+
+
+.about1{
+    text-align: center;
+}
+.about1 h1{
+    color: #002fbc;
+    font-size: 30px;
+}
+.about1 h3{
+    color: #0095ff;
+    font-size: 20px;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+.about1 p{
+    padding-bottom: 20px;
+}
+.about1 img{
+    margin-bottom: 60%;
+}
+*Menu{
+    display: grid;
+
+}
+.menu1{
+    text-align: center;
+    margin: 30px;
+    color: #0768e7;
+    font-size: 30px;
+    margin-top: -65%;
+}
+
+
+.mm h2{
+color: #007bff;
+font-size: medium;
+
+}
+.mm img{
+    width: 30%;
+
+    margin-bottom: 40%;
+}
+.mn h2{
+    color: #007bff;
+font-size: medium;
+margin-top: -30%;
+}
+
+.mn img{
+    width: 30%;
+    margin-bottom: 40%;
+}.nn h2{
+    color: #007bff;
+    font-size: medium;
+    margin-top: -30%;
+}
+.nn img{
+    width: 25%;
+    margin-bottom: 40%;
+}
+.rs h2{
+    color: #007bff;
+    font-size: medium;
+    margin-top: -30%;
+}
+.rs img{
+    width: 25%;
+    margin-bottom: 40%;
+}
+.sr h2{
+    color: #007bff;
+    font-size: medium;
+    margin-top: -30%;
+}
+.sr img{
+    width: 25%;
+    margin-bottom: 40%;
+}
+.iconset{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+gap: 2rem;
+color: #0095ff;
+}
+.icon{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+#contact{
+    margin-top: -400px;
+    background-color: #04adfc;
+  
+}
+.info{
+    text-align: center;
+    margin-top: 10px;
+}
+.socials h1{
+    margin-left: 45%;
+    color: #007bff;
+   
+}
+.icon:hover{
+     background-color: #0a99ff;
+     margin-top: 15px;
+     border-radius: 25px;
+
+}
